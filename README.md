@@ -1,6 +1,6 @@
 # Register My Care
 
-> **A complete care management platform for domiciliary & residential care providers.**
+> **A full-stack care management platform for UK domiciliary and residential care providers.**
 > Created and designed by **Dr. Andrew Ebhoma**
 
 ---
@@ -101,8 +101,8 @@ VALUES (1, 'Admin', 'User', 'admin@mycare.com',
 
 ### 7. Access the application
 
-- **Main app:** `https://yourdomain.com/`  
-- **Super admin:** `https://yourdomain.com/super_admin/`  
+- **Main app:** `https://registermycare.org/ 
+- **Super admin:** `https://registermycare.org/super_admin/`  
   Default credentials: `admin@registermycare.org` / `changeme123` — **change immediately**
 
 ---
@@ -193,17 +193,7 @@ registermycare/
     └── logos/
 ```
 
----
 
-## Google OAuth Setup (Optional)
-
-1. Go to [Google Cloud Console](https://console.developers.google.com/)
-2. Create a new project → **APIs & Services** → **Credentials**
-3. Create **OAuth 2.0 Client ID** → Application type: **Web application**
-4. Add Authorised redirect URI: `https://yourdomain.com/auth/google_callback.php`
-5. Copy Client ID and Secret into `includes/config.php`
-
----
 
 ## Security Notes
 
