@@ -97,14 +97,6 @@ VALUES (1, 'Admin', 'User', 'admin@mycare.com',
         '$2y$10$TKh8H1.PfuAi36lUKSCoP.Z1H9I5lEYlqKx.D.K/p4XqZL6jF0nde', 'Admin', 1);
 ```
 
-> **Note:** The default password hash above is for `Admin1234!` — change it immediately after first login.
-
-### 7. Access the application
-
-- **Main app:** `https://registermycare.org/ 
-- **Super admin:** `https://registermycare.org/super_admin/`  
-  Default credentials: `admin@registermycare.org` / `changeme123` — **change immediately**
-
 ---
 
 ## Migration Files
